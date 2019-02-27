@@ -1,3 +1,36 @@
+# Luxoft's Fullstack Academy: React course
+
+![Luxoft's logo](./course/img/logo-blue.png)
+
+## Topics
+1. Setting up environment/tooling
+	* [npm](https://www.npmjs.com)
+	* [Babel](https://babeljs.io)
+	* [eslint](https://eslint.org)
+	* [Webpack](https://webpack.js.org)
+	* [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html)
+2. Introduction
+	1. What it is
+	2. How it works
+	3. Virtual DOM
+	4. ES6
+	5. Pros and cons
+3. JSX
+4. Components
+	1. Stateless
+	2. Stateful
+5. State and lifecycle
+6. Handling events
+7. Conditional rendering
+8. Styling
+9. Lists and keys
+10. Forms
+11. Further readings
+	1. State management (Flux/Redux/Mobx)
+	2. Design patterns (Context API, Presentation/Container Components, Render Props) - [React Cookbook](https://www.youtube.com/watch?v=_uwPqplr8uM)
+	3.  GraphQL
+	4. Typescript
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
