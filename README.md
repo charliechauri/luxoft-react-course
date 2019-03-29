@@ -9,16 +9,25 @@
 	* [eslint](https://eslint.org)
 	* [Webpack](https://webpack.js.org)
 	* [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html)
-2. Introduction
+2. React Introduction
 	1. What it is
 	2. How it works
-	3. Virtual DOM
+	3. Virtual DOM (also how/why it differs from shadow DOM)
 	4. ES6
+	   - classes 
+	   - arrow functions
 	5. Pros and cons
+3. testing
+  - testing frameworks: karma/jasmine/mocha
+  - react dedicated jest
+  - enzyme
+  - unit/integration/e2e	
 3. JSX
 4. Components
+    0. Pure
 	1. Stateless
 	2. Stateful
+	3. Higher Order Components  
 5. State and lifecycle
 6. Handling events
 7. Conditional rendering
@@ -26,10 +35,20 @@
 9. Lists and keys
 10. Forms
 11. Further readings
-	1. State management (Flux/Redux/Mobx)
-	2. Design patterns (Context API, Presentation/Container Components, Render Props) - [React Cookbook](https://www.youtube.com/watch?v=_uwPqplr8uM)
-	3.  GraphQL
+	1. State management
+	   - Flux/Redux/Mobx
+	   - GraphQL
+	2. Design patterns (Context API, Presentation/Container Components, Render Props)
+	   - [React Cookbook](https://www.youtube.com/watch?v=_uwPqplr8uM)
+	   - react app architecture
+	   - self contained components
+	   - unidirectional data flow concept
+	   - hooks
+	2. compare to other frameworks - Angular, Vue, others (elm lang :) ...   
+	3. Server Side Rendering - what it is, pros & cons
 	4. Typescript
+	5. Progressive Web Apps
+	6. Web Components  
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
