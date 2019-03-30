@@ -3,52 +3,99 @@
 ![Luxoft's logo](./course/img/logo-blue.png)
 
 ## Topics
-1. Setting up environment/tooling
-	* [npm](https://www.npmjs.com)
-	* [Babel](https://babeljs.io)
-	* [eslint](https://eslint.org)
-	* [Webpack](https://webpack.js.org)
-	* [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html)
-2. React Introduction
-	1. What it is
-	2. How it works
-	3. Virtual DOM (also how/why it differs from shadow DOM)
-	4. ES6
-	   - classes 
-	   - arrow functions
-	5. Pros and cons
-3. testing
-  - testing frameworks: karma/jasmine/mocha
-  - react dedicated jest
-  - enzyme
-  - unit/integration/e2e	
-3. JSX
-4. Components
-    0. Pure
-	1. Stateless
-	2. Stateful
-	3. Higher Order Components  
-5. State and lifecycle
-6. Handling events
-7. Conditional rendering
-8. Styling
-9. Lists and keys
-10. Forms
-11. Further readings
-	1. State management
-	   - Flux/Redux/Mobx
-	   - GraphQL
-	2. Design patterns (Context API, Presentation/Container Components, Render Props)
-	   - [React Cookbook](https://www.youtube.com/watch?v=_uwPqplr8uM)
-	   - react app architecture
-	   - self contained components
-	   - unidirectional data flow concept
-	   - hooks
-	2. compare to other frameworks - Angular, Vue, others (elm lang :) ...   
-	3. Server Side Rendering - what it is, pros & cons
-	4. Typescript
-	5. Progressive Web Apps
-	6. Web Components  
+
+### Setting up environment/tooling
+* [npm](https://www.npmjs.com) / [yarn](https://yarnpkg.com/en/)
+* [Visual Studio Code](https://code.visualstudio.com)
+* [Babel](https://babeljs.io)
+* [eslint](https://eslint.org)
+* [prettier](https://prettier.io)
+* [webpack](https://webpack.js.org)
+* [create-react-app](https://facebook.github.io/create-react-app/docs/getting-started)
+
+### [ES6](http://es6-features.org)
+* Arrow functions
+* Extended parameter handling
+	* Default parameter values
+	* Rest parameters
+	* Spread operator
+* Enhanced Object properties
+	* Computed property Names
+	* Method properties
+* Destructuring assignment
+	* Array matching
+	* Object matching
+	* Default values
+* Modules
+* Classes
+	* Definition
+	* Inheritance
+	* Static Members
+
+### Introduction to React
+* What it is
+* How it works
+* Virtual DOM (also how/why it differs from shadow DOM)
+* JSX
+
+### React Main Concepts
+* Components
+	* Pure / Stateless
+	* Stateful
+	* [Higher Order Components](https://reactjs.org/docs/higher-order-components.html)
+* State and lifecycle
+* Handling events
+* Conditional rendering
+* Styling
+	* CSS
+	* Sass
+	* Styled components
+* Lists and keys
+* Forms
+* [Fragments](https://reactjs.org/docs/fragments.html)
+* [TypeChecking with PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
+* Debugging
+
+### Testing
+* Testing pyramid and types of testing
+	* Unit
+	* Integration
+	* End to End (e2e)
+* Testing frameworks
+	* [karma](https://karma-runner.github.io/latest/index.html)
+	* [jasmine](https://jasmine.github.io/)
+	* [mocha](https://mochajs.org/)
+	* [Jest](https://jestjs.io/)
+	* [Enzyme](https://github.com/airbnb/enzyme)
+	* [Nightwatch JS](http://nightwatchjs.org/)
+
+### Advanced React
+* Design patterns
+	* [React Cookbook](https://www.youtube.com/watch?v=_uwPqplr8uM)
+	* [Context API](https://reactjs.org/docs/context.html)
+	* [Presentational/Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
+	* [Render Props](https://reactjs.org/docs/render-props.html)
+	* React app architecture
+	* [Composition vs inheritance](https://reactjs.org/docs/composition-vs-inheritance.html)
+	* [Self contained components](https://reactarmory.com/guides/learn-react-by-itself/component-instances-and-state)
+	* [Unidirectional data flow concept](https://medium.com/@alialhaddad/https-medium-com-alialhaddad-redux-vs-parent-to-child-2583c8e29509)
+	* [Hooks](https://reactjs.org/docs/hooks-intro.html)
+* [A11y](https://reactjs.org/docs/accessibility.html)
+* Security
+* State management
+	* [Redux](https://redux.js.org/)
+	* [Mobx](https://mobx.js.org/)
+	* [Flux](https://facebook.github.io/flux/docs/overview.html)
+	* [GraphQL](https://graphql.org)
+
+### Further readings
+* Server Side Rendering - what it is, pros & cons
+* Compare to other frameworks - Angular, Vue, others (elm lang :) ...
+* [React router](https://reacttraining.com/react-router/web/guides/quick-start)
+* [Typescript](https://www.typescriptlang.org)
+* [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/)
+* [Web Components](https://www.webcomponents.org)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
